@@ -41,10 +41,16 @@ body {
 .head {
     margin: 20px auto;
     height: 50px;
-    width: 65vw;
+    width: 80vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1200px) {
+    .head {
+        display: none;
+    }
 }
 
 .current-page {
@@ -112,6 +118,10 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.droptext {
+    font-size: 16px;
 }
 
 /*End dropdown styling*/
