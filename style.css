@@ -1,0 +1,116 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgb(240, 240, 240);
+}
+
+.top-sale {
+    background-color: #1F2C53;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.the-heading {
+    width: fit-content;
+    padding-top: 50px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #208dc0, #1724da);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 64px;
+}
+
+
+/*Tabs*/
+
+.head {
+    margin: 20px auto;
+    height: 50px;
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.current-page {
+    border-bottom: solid 2px black;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(-45deg) translate(4px 2px);
+    -webkit-transform: rotate(-45deg) translate(4px, 2px);
+    transition: transform 0.5s;
+}
+
+.b1:hover .a1 {
+    transform: rotate(45deg) translate(2px -7px);
+    -webkit-transform: rotate(45deg) translate(2px, -7px);
+}
+
+.b2:hover .a2 {
+    transform: rotate(45deg) translate(2px -7px);
+    -webkit-transform: rotate(45deg) translate(2px, -7px);
+}
+
+.b3:hover .a3 {
+    transform: rotate(45deg) translate(2px -7px);
+    -webkit-transform: rotate(45deg) translate(2px, -7px);
+}
+
+/*Dropdown Menu*/
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.dropbtn {
+    font-size: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 1.0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/*End dropdown styling*/
