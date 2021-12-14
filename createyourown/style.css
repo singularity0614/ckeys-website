@@ -12,24 +12,6 @@ a {
     text-decoration: none;
 }
 
-.top-sale {
-    background-color: #1F2C53;
-    color: #FFFFFF;
-    margin: 0;
-    padding: 0px 20px 0px 20px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-}
-
-.hidden {
-    visibility: hidden;
-}
-
-.close {
-    cursor: pointer;
-}
-
 .name {
     width: fit-content;
     margin: 50px auto 30px auto;
