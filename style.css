@@ -32,7 +32,7 @@ a {
 
 .name {
     width: fit-content;
-    margin: 50px auto 30px auto;
+    margin: 50px auto 0 auto;
     background: linear-gradient(to right, #208dc0, #1724da);
     background-clip: text;
     -webkit-background-clip: text;
@@ -46,7 +46,7 @@ a {
 }
 
 .icon-group {
-    padding: 20px 20px 0 20px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
