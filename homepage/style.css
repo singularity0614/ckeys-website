@@ -40,6 +40,16 @@ a {
     font-size: 64px;
 }
 
+.material-icons-outlined.md-36 {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icon-group {
+    padding: 20px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
 /*Tabs*/
 
@@ -86,6 +96,16 @@ a {
 }
 
 .b3:hover .a3 {
+    transform: rotate(45deg) translate(2px -7px);
+    -webkit-transform: rotate(45deg) translate(2px, -7px);
+}
+
+.b4:hover .a4 {
+    transform: rotate(45deg) translate(2px -7px);
+    -webkit-transform: rotate(45deg) translate(2px, -7px);
+}
+
+.b5:hover .a5 {
     transform: rotate(45deg) translate(2px -7px);
     -webkit-transform: rotate(45deg) translate(2px, -7px);
 }
