@@ -29,31 +29,31 @@ a {
     cursor: pointer;
 }
 
-.name {
-    width: fit-content;
-    margin: 50px auto 0 auto;
-    background: linear-gradient(to right, #00608d, #01075a);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 64px;
-}
-
 .material-icons-outlined.md-36 {
     font-size: 30px;
     cursor: pointer;
 }
 
 .icon-group {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.name {
+    width: fit-content;
+    margin: 0px auto 20px auto;
+    background: linear-gradient(to right, #00608d, #01075a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
 }
 
 /*Tabs*/
 
 .head {
-    margin: 20px auto 50px auto;
+    margin: 10px auto 50px auto;
     height: 50px;
     width: 80vw;
     display: flex;
@@ -112,7 +112,7 @@ a {
 /*Dropdown Menu*/
 
 .dropbtn {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .dropdown {
@@ -130,6 +130,9 @@ a {
     position: fixed;
     left: 0px;
     width: 100vw;
+    padding-bottom: 18px;
+    border-bottom: solid 2px #666666;
+    background-color: #FFFFFF;
 }
 
 .dropdown-content-special {
@@ -137,6 +140,7 @@ a {
     position: absolute;
     left: -0.25vw;
     width: max-content;
+    background-color: #FFFFFF;
   }
 
 .dropdown-format {
