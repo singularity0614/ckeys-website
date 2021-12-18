@@ -18,6 +18,7 @@ a {
     padding: 0px 20px 0px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 14px;
 }
 
@@ -35,20 +36,35 @@ a {
 }
 
 .icon-group {
-    padding: 20px 20px 0 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
 
+/*Animating Search*/
+
+.icon-group.searchstart {
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+    background-color: #666666 !important;
+}
+
+/*End Animation*/
+
 .name {
     width: fit-content;
-    margin: 0px auto 20px auto;
+    margin: 0px auto 30px auto;
+    padding: 0px;
     background: linear-gradient(to right, #00608d, #01075a);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 48px;
 }
+
 
 /*Tabs*/
 
