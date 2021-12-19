@@ -55,6 +55,7 @@ a {
     -o-transition: 1s;
     transition: 1s;
     margin-left: 25vw !important;
+    margin-right: 25vw !important;
     padding-bottom: 20px;
 }
 
